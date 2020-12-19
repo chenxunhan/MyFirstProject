@@ -4,7 +4,8 @@ using namespace std;
 int main() {
   int i;
   for (i = 0; i < 100; ++i) {
-    cout << i << endl;
+        for(int j=0;j<100;++j)
+            cout << i << endl;
     //i edit code here
   }
   return 0;
